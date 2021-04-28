@@ -1,0 +1,62 @@
+.areaJogo{
+    background: #000;
+    width: 960px;
+    height: 500px;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+   
+}
+
+
+/*style barras*/
+.barra{
+    position: absolute;
+    width: 20px;
+    height: 140px;
+    background: greenyellow;
+    top: 200;
+    border-radius: 2px;
+}
+.esquerda{
+    left: 30px
+}
+.direita{
+    left: 930px;
+}
+
+
+/*style bola*/
+#dvBola{
+    position:absolute;
+    top: 240px;
+    left: 475px;
+    width:20px;
+    height: 20px;
+    background: honeydew;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+
+
+/* Style Menu */
+.menu{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.intemMenu{
+    margin: 5px;
+}
+.status-noIni{
+    color: red;
+    font-weight: bold;
+}
+.status-pause{
+    color: yellow;
+    font-weight: bold;
+}
+.status-ini {
+    color: green;
+    font-weight: bold;
+}

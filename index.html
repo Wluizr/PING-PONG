@@ -1,0 +1,35 @@
+
+<html>
+    
+    <thead>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ping Pong</title>
+        <link rel="stylesheet" href="css/style.css">
+
+    </thead>
+    <tbody>
+        <div class="container">
+            
+            <div class="areaJogo">
+                <div id="dvBola"></div>
+                <div id="dvJogador" class="barra esquerda"></div>
+                <div id="dvCpu" class="barra direita"></div>
+            </div>
+            <div class="menu">
+                <div class="intemMenu">
+                    <label>Status jogo:</label> <span id='spnStatus' class="status-noIni">Não iniciado</span>            
+                    <label>Pontos:</label> <input type="text" id="pontosJogador">
+                </div>
+                <div class="intemMenu"></div>
+                    <input id="btIniciar" type="button" value='Iniciar Jogo'>
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+        <script src="js/main.js"></script>
+    </tbody>
+</html>
